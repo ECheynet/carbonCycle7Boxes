@@ -1,5 +1,7 @@
 # Seven-box carbon cycle model
 
+[![View Seven-box carbon cycle model on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://se.mathworks.com/matlabcentral/fileexchange/128979-seven-box-carbon-cycle-model)
+
 A seven-box carbon cycle model is implemented in Matlab to simulate atmospheric CO2 concentration from 1750 onwards.
 
 ## Summary
