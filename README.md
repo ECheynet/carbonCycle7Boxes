@@ -10,12 +10,12 @@ The run7Box function is a simple tool for simulating the global carbon cycle. It
 
 This repository contains the following files:
 
- -  Documentation.mlx: A MATLAB Live Script that provides detailed documentation for the run7Box function.
- - run7Box.m: A MATLAB function that simulates the carbon cycle using a 7-box model. It takes in emissions data and other input parameters, and returns the atmospheric carbon dioxide concentration over time.
-  - gamma_ourWorldInData.mat: A data file containing global carbon dioxide emissions data from fossil fuels and industry. The data is sourced from https://ourworldindata.org/grapher/global-co2-emissions-fossil-land.
+- Documentation.mlx: A MATLAB Live Script that provides detailed documentation for the run7Box function.
+- run7Box.m: A MATLAB function that simulates the carbon cycle using a 7-box model. It takes in emissions data and other input parameters, and returns the atmospheric carbon dioxide concentration over time.
+- gamma_ourWorldInData.mat: A data file containing global carbon dioxide emissions data from fossil fuels and industry. The data is sourced from https://ourworldindata.org/grapher/global-co2-emissions-fossil-land.
 - delta_ourWorldInData.mat: A data file containing global carbon dioxide emissions data from land-use change. The data is sourced from https://ourworldindata.org/grapher/global-co2-emissions-fossil-land.
-    README.md: This file.
+- README.md: This file.
 
 ## References
 
-[1] Tomizuka, A. (2009). Is a box model effective for understanding the carbon cycle?. American Journal of Physics, 77(2), 156-163.
+[1] Tomizuka, A. (2009). Is a box model effective for understanding the carbon cycle?. American Journal of
