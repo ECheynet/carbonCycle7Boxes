@@ -22,4 +22,4 @@ This repository contains the following files:
 
 ## References
 
-[1] Tomizuka, A. (2009). Is a box model effective for understanding the carbon cycle?. American Journal of
+[1] Tomizuka, Akira. "Is a box model effective for understanding the carbon cycle?." American Journal of Physics 77.2 (2009): 156-163
