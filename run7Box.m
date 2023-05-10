@@ -84,23 +84,21 @@ for ii = 2:N
     [kp]=getKp(C,zeta); % get  positive transfer rate in yr-1
 
     % Get total yearly rates for each box
-    F = (km + kp)*C_CO2(:,ii-1);
+    K = (km + kp);
 
+    F = zeros(7,1);
     % Update atmospheric CO2 concentration with buffer, land use change delta and
     % human emissions gamma
-    F(1,1) = F(1,1)  + gamma(ii) - f + delta(ii) + k12.*(1-zeta); 
-
+    F(1,1)= gamma(ii) - f + delta(ii) + k12.*(1-zeta); 
     % Surface ocean updated with buffer
-    F(2,1) = F(2,1) - k12.*(1-zeta);   
-    
+    F(2,1)= - k12.*(1-zeta);   
     % Biosphere updated with land-use changes and emissions
-    F(6,1)= F(6,1) - 2.*delta(ii) + f;
-
+    F(6,1)= - 2.*delta(ii) + f;
     % Soil updated with land-use change
-    F(7,1)=  F(7,1)  + delta(ii);
+    F(7,1)=  delta(ii);
 
     % Next iteration estimate
-    C_CO2(:,ii) = C_CO2(:,ii-1) + F * dt;
+    C_CO2(:,ii) = C_CO2(:,ii-1) + (K*C_CO2(:,ii-1) + F) * dt;
 
     % Check that pools do not become negative
     C_CO2(C_CO2<0)= 0;
