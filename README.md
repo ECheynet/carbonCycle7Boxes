@@ -1,5 +1,4 @@
-# Seven-box model of the carbon cycle
-
+# A seven-box model of the carbon cycle for climate modelling 
 [![View Seven-box carbon cycle model on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://se.mathworks.com/matlabcentral/fileexchange/128979-seven-box-carbon-cycle-model)
 
 A seven-box carbon cycle model is implemented in Matlab to simulate atmospheric CO2 concentration from 1750 onwards.
@@ -18,7 +17,9 @@ This repository contains the following files:
 - gamma_ourWorldInData.mat: A data file containing global carbon dioxide emissions data from fossil fuels and industry. The data is sourced from https://ourworldindata.org/grapher/global-co2-emissions-fossil-land.
 - delta_ourWorldInData.mat: A data file containing global carbon dioxide emissions data from land-use change. The data is sourced from https://ourworldindata.org/grapher/global-co2-emissions-fossil-land.
 - climate-change.csv. Source: https://ourworldindata.org/atmospheric-concentrations
-
+- ipcc-scenarios.cv to implement different source of anthropogenic carbon emissions
+- tsi_v02r01_yearly_s1610_e2022_c20230120.nc that contains solar irradiance time series
+- T_anomaly_1850.mat, which are the global temperature anomaly w.r.t. to 1951-1980
 
 ## References
 
