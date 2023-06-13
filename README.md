@@ -18,9 +18,10 @@ This repository contains the following files:
 - gamma_ourWorldInData.mat: A data file containing global carbon dioxide emissions data from fossil fuels and industry. The data is sourced from https://ourworldindata.org/grapher/global-co2-emissions-fossil-land.
 - delta_ourWorldInData.mat: A data file containing global carbon dioxide emissions data from land-use change. The data is sourced from https://ourworldindata.org/grapher/global-co2-emissions-fossil-land.
 - climate-change.csv. Source: https://ourworldindata.org/atmospheric-concentrations
-- ipcc-scenarios.cv to implement different source of anthropogenic carbon emissions
+- ipcc-scenarios.csv to implement different source of anthropogenic carbon emissions. Source: https://ourworldindata.org/explorers/ipcc-scenarios
 - tsi_v02r01_yearly_s1610_e2022_c20230120.nc that contains solar irradiance time series
 - T_anomaly_1850.mat, which are the global temperature anomaly w.r.t. to 1951-1980
+- - IPCC_scnario_plot.mlx shows some of the data contained in the csv file ipcc-scenarios.csv
 
 ## References
 
